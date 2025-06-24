@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Jogo da Velha Multiplayer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>Jogo da Velha</h1>
+
+    <div id="board">
+      <div class="cell" data-index="0"></div>
+      <div class="cell" data-index="1"></div>
+      <div class="cell" data-index="2"></div>
+      <div class="cell" data-index="3"></div>
+      <div class="cell" data-index="4"></div>
+      <div class="cell" data-index="5"></div>
+      <div class="cell" data-index="6"></div>
+      <div class="cell" data-index="7"></div>
+      <div class="cell" data-index="8"></div>
+    </div>
+
+    <div id="status">Aguardando jogadores...</div>
+
+    <button id="reset">Reiniciar Jogo</button>
+
+  </div>
+
+    <script>
+        const url = `http://26.112.114.192:3000`;
+    </script>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
